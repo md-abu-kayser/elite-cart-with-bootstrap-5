@@ -1,4 +1,5 @@
 // JS Start
+// ----------------------------------------------------->
 // Here is Theme Management
 class ThemeManager {
   constructor() {

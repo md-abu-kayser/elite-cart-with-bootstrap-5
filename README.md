@@ -60,7 +60,7 @@ README.md # Project documentation
 #### Frontend Technologies
 
 - HTML5 - Semantic markup and modern structure
-- CSS3 - Custom properties, Grid, Flexbox, Animations
+- CSS3 - Custom properties, Grid, Flex-box, Animations
 - Bootstrap 5 - Responsive framework and components
 - JavaScript ES6+ - Modern JavaScript features
 - Font Awesome - Icon library
@@ -82,39 +82,47 @@ README.md # Project documentation
 2. Local server (for development)
 3. Basic understanding of HTML, CSS & Bootstrap5, JavaScript
 
-### Installation
+### Installation | Set up | Git pages
 
-1. Clone the repository
+1. **Clone the repository:**
 
-- git clone https://github.com/go-kawser/elite-cart-with-bootstrap-5.git
-- cd elitecart
+```
+git clone https://github.com/md-abu-kayser/elite-cart-with-bootstrap-5.git
 
-2. Set up the project
+```
 
-##### No build process required | it's ready to use!
+2. **Set up the project:**
 
-#### Theme Customization
+**No build process required. it's ready to use!**
+
+3. **Github live page:**
+
+```
+https://md-abu-kayser.github.io/elite-cart-with-bootstrap-5/
+```
+
+### Theme Customization
 
 // Programmatically change themes
 const themeManager = new ThemeManager();
 themeManager.setTheme('luxury-purple');
 themeManager.toggleDarkMode();
 
-#### Product Management
+### Product Management
 
 // Add product to cart
 productManager.addToCart(productElement);
 // Toggle wishlist
 productManager.toggleWishlist(productElement);
 
-#### Responsive Breakpoints
+### Responsive Breakpoints
 
 - Device------> Breakpoint-------> Features
 - Mobile------> < 768px----------> Touch-optimized, hamburger menu
 - Tablet------> 768px - 1024px---> Adaptive layout, touch-friendly
 - Desktop-----> > 1024px---------> Full features, hover effects
 
-#### Browser Support
+### Browser Support
 
 - Browser----> Version-> Support
 - Chrome-----> 60+ ----> Full Support
@@ -125,7 +133,7 @@ productManager.toggleWishlist(productElement);
 
 ### Advanced Configuration
 
-#### Custom Theme Development
+### Custom Theme Development
 
 /_ Create your own theme _/
 [data-color-theme="your-theme"] {
@@ -134,14 +142,14 @@ productManager.toggleWishlist(productElement);
 /_ Add more custom properties _/
 }
 
-#### Extending Functionality
+### Extending Functionality
 
 // Add custom product types
 class CustomProductManager extends ProductManager {
 // Your custom methods here
 }
 
-#### Contributing
+### Contributing
 
 **We love contributions! Here's how you can help:**
 
@@ -151,7 +159,7 @@ class CustomProductManager extends ProductManager {
 - Push to the branch (git push origin feature/AmazingFeature)
 - Open a Pull Request
 
-#### Development Guidelines
+### Development Guidelines
 
 - Follow existing code style
 - Add comments for complex logic
@@ -162,40 +170,60 @@ class CustomProductManager extends ProductManager {
 
 #### Common Issues
 
-##### Images not loading?
+#### Images not loading?
 
 - Check the images folder structure
 - Ensure file names match exactly
 - Verify image paths in HTML
 
-##### Themes not working?
+### Themes not working?
 
 - Check browser console for errors
 - Ensure JavaScript is enabled
 - Clear browser cache and reload
 
-##### Responsive issues?
+### Responsive issues?
 
 - Check viewport meta tag
 - Test on different screen sizes
 - Verify Bootstrap CSS is loaded
 
-##### License and Contact
-
-- This project is licensed under the MIT License - see the LICENSE file for details.
-- **Email:** abu.kayser.official@gmail.com
-
-##### Acknowledgments
+### Acknowledgments
 
 1. Bootstrap 5 - For the amazing framework
 2. Font Awesome - For the beautiful icons
 3. Google Fonts - For the Inter typeface
 4. Contributors - For valuable feedback and contributions
 
-##### Show Your Support
+### License
+
+- This project is licensed under the terms of the **[MIT License](./LICENSE)**.
+- You may replace or update the license as needed for client or proprietary projects.
+
+---
+
+### Contact and Maintainer
+
+**Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)  
+**Name:** Md Abu Kayser - Full-Stack Engineer
+
+- **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
+- **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
+- **Project:** _elite-cart-with-bootstrap-5_
+
+If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
+
+---
+
+**Thank you for reviewing this project!**  
+It’s designed to be **clean, well-structured**, and **pleasant to explore** - perfect for interviews, portfolio showcases, or professional demos.
+
+#### Show Your Support
 
 **If you find this project helpful, please give it a star on GitHub!**
 
 ---
 
 **Note:** This is a frontend-only implementation. For production use, integrate with a backend API for complete e-commerce functionality including user authentication, payment processing, and order management.
+
+---
